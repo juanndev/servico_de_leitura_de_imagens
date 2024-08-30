@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Flask",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "${workspaceFolder}/app/__init__.py",
+        "console": "integratedTerminal",
+        "env": {
+          "FLASK_APP": "app",
+          "FLASK_ENV": "development"
+        },
+        "justMyCode": true
+      }
+    ]
+  }
+  
